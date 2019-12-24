@@ -1,13 +1,101 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #926239;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#showcase {
+  background-image:url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #926239;
+  border: #926239 1px solid;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+#section-a .pdf_button {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  border: black 2px solid;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.pdf_button:hover {
+  background-color: tan; /* Green */
+  color: white;
+}
+
+#showcase .button:hover{
+  background: #926239;
+  color: #fff;
+}
+
+#section-a {
+  padding: 20px;
+  background: #926239;
+  color: #fff;
+  text-align: center;
+}
+
+#section-a h2{
+  text-align: center;
+}
+
+#section-b{
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.lang_logo{
+  height: 50px;
+  width: 50px;
+}
+
+#section-c div{
+  padding: 20px;
+}
+
+img {
+  height: 150px;
+}
+
+p.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+p.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  text-decoration: none;
 }
