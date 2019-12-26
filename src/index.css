@@ -7,7 +7,7 @@ body{
 }
 
 #showcase {
-  background-image:url('bg-img.jpg');
+  background-image:url('bg_image.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -26,8 +26,8 @@ body{
 #showcase .button {
   font-size: 18px;
   text-decoration: none;
-  color: white;
-  border: white 1px solid;
+  color: #926239;
+  border: #926239 1px solid;
   border-radius: 10px;
   margin-top: 20px;
   padding: 10px 20px;
