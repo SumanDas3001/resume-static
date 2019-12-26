@@ -30,6 +30,7 @@ export default function Footer(){
           <small class="text-white">Made with <span style={{color: 'red'}}>♥</span> by Suman</small>
         </div>
       </footer>
+      <a href="#" id="scroll" style={{display: 'none'}}><span></span></a>
     </div>
   );
 }
