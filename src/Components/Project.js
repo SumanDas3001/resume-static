@@ -19,13 +19,39 @@ export default function Project(){
         <div class="row mt-2">
           <div class="col card-columns">
             <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
+              <a href="https://github.com/SumanDas3001/react_clicker" class="custom-card" target="_blank">
                 <div class="card-body text-center">
                   <p
                     class="card-text text-white"
                     style={text_dec}
                   >
-                    Some text inside the first card
+                    Clicker App
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="card" style={card_style}>
+              <a href="https://github.com/SumanDas3001/image_finder" class="custom-card" target="_blank">
+                <div class="card-body text-center">
+                  <p
+                    class="card-text text-white"
+                    style={text_dec}
+                  >
+                    Image Finder
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="card" style={card_style}>
+              <a href="https://github.com/SumanDas3001/ReactTodoApp" class="custom-card" target="_blank">
+                <div class="card-body text-center">
+                  <p
+                    class="card-text text-white"
+                    style={text_dec}
+                  >
+                    Todo App
                   </p>
                 </div>
               </a>
@@ -38,176 +64,33 @@ export default function Project(){
                     class="card-text text-white"
                     style={text_dec}
                   >
-                    Some text inside the first card
+                    What is the temp..
                   </p>
                 </div>
               </a>
             </div>
 
             <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
+              <a href="https://github.com/SumanDas3001/elastic_rails" class="custom-card" target="_blank">
                 <div class="card-body text-center">
                   <p
                     class="card-text text-white"
                     style={text_dec}
                   >
-                    Some text inside the first card
+                    Elastic Rails
                   </p>
                 </div>
               </a>
             </div>
 
             <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
+              <a href="https://github.com/SumanDas3001/Myportfolio" class="custom-card" target="_blank">
                 <div class="card-body text-center">
                   <p
                     class="card-text text-white"
                     style={text_dec}
                   >
-                    Some text inside the first card
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
-                <div class="card-body text-center">
-                  <p
-                    class="card-text text-white"
-                    style={text_dec}
-                  >
-                    Some text inside the first card
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
-                <div class="card-body text-center">
-                  <p
-                    class="card-text text-white"
-                    style={text_dec}
-                  >
-                    Some text inside the first card
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
-                <div class="card-body text-center">
-                  <p
-                    class="card-text text-white"
-                    style={text_dec}
-                  >
-                    Some text inside the first card
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
-                <div class="card-body text-center">
-                  <p
-                    class="card-text text-white"
-                    style={text_dec}
-                  >
-                    Some text inside the first card
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
-                <div class="card-body text-center">
-                  <p
-                    class="card-text text-white"
-                    style={text_dec}
-                  >
-                    Some text inside the first card
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
-                <div class="card-body text-center">
-                  <p
-                    class="card-text text-white"
-                    style={text_dec}
-                  >
-                    Some text inside the first card
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
-                <div class="card-body text-center">
-                  <p
-                    class="card-text text-white"
-                    style={text_dec}
-                  >
-                    Some text inside the first card
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
-                <div class="card-body text-center">
-                  <p
-                    class="card-text text-white"
-                    style={text_dec}
-                  >
-                    Some text inside the first card
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
-                <div class="card-body text-center">
-                  <p
-                    class="card-text text-white"
-                    style={text_dec}
-                  >
-                    Some text inside the first card
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
-                <div class="card-body text-center">
-                  <p
-                    class="card-text text-white"
-                    style={text_dec}
-                  >
-                    Some text inside the first card
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
-                <div class="card-body text-center">
-                  <p
-                    class="card-text text-white"
-                    style={text_dec}
-                  >
-                    Some text inside the first card
+                    Portfolio
                   </p>
                 </div>
               </a>

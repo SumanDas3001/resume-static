@@ -6,13 +6,13 @@ export default function Footer(){
       <div class="container-fluid" id="section-a">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <i class="fa fa-phone"><a href="tel:+1123-456-7890" class="text-white">123-456-7890</a></i>
+            <i class="fa fa-phone"><a href="tel:+1123-456-7890" class="text-white"> 9123364238</a></i>
           </div>
           <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <a href="mailto:someone@example.com?Subject=Hello%20again"><i class="fa fa-envelope-o text-white"> example@gmail.com</i></a>
+            <a href="mailto:sumandas3001@gmail.com?Subject=Hello%20suman"><i class="fa fa-envelope-o text-white"> sumandas3001@gmail.com</i></a>
           </div>
           <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <i class="fa fa-map-marker" aria-hidden="true"> Address: Hridaypur, Kora Babupara, Kolkata, India, Pincode: 700130</i>
+            <i class="fa fa-map-marker" aria-hidden="true"> Address: J B Nagar, Andheri East, Mumbai, Maharashtra, India, Pincode: 400059</i>
           </div>
         </div>
       </div>
