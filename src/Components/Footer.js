@@ -6,7 +6,7 @@ export default function Footer(){
       <div class="container-fluid" id="section-a">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <i class="fa fa-phone"><a href="tel:+1123-456-7890" class="text-white"> 9123364238</a></i>
+            <i class="fa fa-phone"><a href="tel:9123364238" class="text-white"> 9123364238</a></i>
           </div>
           <div class="col-12 col-sm-12 col-md-4 col-lg-4">
             <a href="mailto:sumandas3001@gmail.com?Subject=Hello%20suman"><i class="fa fa-envelope-o text-white"> sumandas3001@gmail.com</i></a>
