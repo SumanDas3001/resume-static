@@ -58,7 +58,7 @@ export default function Project(){
             </div>
 
             <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001/what_is_the_temp" class="custom-card" target="_blank">
+              <a href="https://github.com/SumanDas3001" class="custom-card" target="_blank">
                 <div class="card-body text-center">
                   <p
                     class="card-text text-white"
