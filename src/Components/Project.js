@@ -11,18 +11,18 @@ export default function Project(){
   }
   return(
     <div>
-      <div class="mt-5">
-        <h2 class="sansserif" style={{textAlign: 'center', color: 'black'}}>Projects</h2>
+      <div className="mt-5">
+        <h2 className="sansserif" style={{textAlign: 'center', color: 'black'}}>Projects</h2>
       </div>
 
-      <div class="container">
-        <div class="row mt-2">
-          <div class="col card-columns">
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001/react_clicker" class="custom-card" target="_blank">
-                <div class="card-body text-center">
+      <div className="container">
+        <div className="row mt-2">
+          <div className="col card-columns">
+            <div className="card" style={card_style}>
+              <a href="https://github.com/SumanDas3001/react_clicker" className="custom-card" target="_blank">
+                <div className="card-body text-center">
                   <p
-                    class="card-text text-white"
+                    className="card-text text-white"
                     style={text_dec}
                   >
                     Clicker App
@@ -31,11 +31,11 @@ export default function Project(){
               </a>
             </div>
 
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001/image_finder" class="custom-card" target="_blank">
-                <div class="card-body text-center">
+            <div className="card" style={card_style}>
+              <a href="https://github.com/SumanDas3001/image_finder" className="custom-card" target="_blank">
+                <div className="card-body text-center">
                   <p
-                    class="card-text text-white"
+                    className="card-text text-white"
                     style={text_dec}
                   >
                     Image Finder
@@ -44,11 +44,11 @@ export default function Project(){
               </a>
             </div>
 
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001/ReactTodoApp" class="custom-card" target="_blank">
-                <div class="card-body text-center">
+            <div className="card" style={card_style}>
+              <a href="https://github.com/SumanDas3001/ReactTodoApp" className="custom-card" target="_blank">
+                <div className="card-body text-center">
                   <p
-                    class="card-text text-white"
+                    className="card-text text-white"
                     style={text_dec}
                   >
                     Todo App
@@ -57,11 +57,11 @@ export default function Project(){
               </a>
             </div>
 
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001/what_is_the_temp" class="custom-card" target="_blank">
-                <div class="card-body text-center">
+            <div className="card" style={card_style}>
+              <a href="https://github.com/SumanDas3001/what_is_the_temp" className="custom-card" target="_blank">
+                <div className="card-body text-center">
                   <p
-                    class="card-text text-white"
+                    className="card-text text-white"
                     style={text_dec}
                   >
                     What is the temp..
@@ -70,11 +70,11 @@ export default function Project(){
               </a>
             </div>
 
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001/elastic_rails" class="custom-card" target="_blank">
-                <div class="card-body text-center">
+            <div className="card" style={card_style}>
+              <a href="https://github.com/SumanDas3001/elastic_rails" className="custom-card" target="_blank">
+                <div className="card-body text-center">
                   <p
-                    class="card-text text-white"
+                    className="card-text text-white"
                     style={text_dec}
                   >
                     Elastic Rails
@@ -83,11 +83,11 @@ export default function Project(){
               </a>
             </div>
 
-            <div class="card" style={card_style}>
-              <a href="https://github.com/SumanDas3001/Myportfolio" class="custom-card" target="_blank">
-                <div class="card-body text-center">
+            <div className="card" style={card_style}>
+              <a href="https://github.com/SumanDas3001/Myportfolio" className="custom-card" target="_blank">
+                <div className="card-body text-center">
                   <p
-                    class="card-text text-white"
+                    className="card-text text-white"
                     style={text_dec}
                   >
                     Portfolio
