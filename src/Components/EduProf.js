@@ -17,8 +17,8 @@ export default function EduProf(){
           <div class="col-sm-6 col-md-6">
             <div class="card">
               <div class="card-body" style={card_bg}>
-                <h5 class="card-title text-white">B-tech in CSE</h5>
-                <p class="card-text text-white">Brainware Group of Institutions -- B-Tech (W.B.U.T) 2015-2018.</p>
+                <h5 class="card-title text-white">B.Tech in CSE</h5>
+                <p class="card-text text-white">Brainware Group of Institutions -- B.Tech (W.B.U.T) 2015-2018.</p>
               </div>
             </div>
           </div>
