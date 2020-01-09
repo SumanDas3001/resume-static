@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Footer(){
+
   return(
     <div>
       <div className="container-fluid" id="section-a">
@@ -20,11 +21,11 @@ export default function Footer(){
       <footer id="sticky-footer" className="py-4 bg-dark text-white-50">
         <div className="container text-center">
           <ul className="list-unstyled list-inline social text-center">
-            <li className="list-inline-item ml-2"><a href="https://www.facebook.com/profile.php?id=100006119806373" target="_blank"><i className="fa fa-facebook fa-2x"></i></a></li>
-            <li className="list-inline-item ml-2"><a href="https://twitter.com/Suman07396436" target="_blank"><i className="fa fa-twitter fa-2x"></i></a></li>
-            <li className="list-inline-item ml-2"><a href="https://github.com/SumanDas3001" target="_blank"><i className="fa fa-github fa-2x"></i></a></li>
-            <li className="list-inline-item ml-2"><a href="https://www.linkedin.com/in/suman-das-9068b5142/" target="_blank"><i className="fa fa-linkedin fa-2x"></i></a></li>
-            <li className="list-inline-item ml-2"><a href="https://www.instagram.com/sumangraphy/" target="_blank"><i className="fa fa-instagram fa-2x"></i></a></li>
+            <li className="list-inline-item ml-2"><a href="https://www.facebook.com/profile.php?id=100006119806373" target="_blank"><i className="fa fa-facebook fa-2x" style={{color: '#926239'}}></i></a></li>
+            <li className="list-inline-item ml-2"><a href="https://twitter.com/Suman07396436" target="_blank"><i className="fa fa-twitter fa-2x" style={{color: '#926239'}}></i></a></li>
+            <li className="list-inline-item ml-2"><a href="https://github.com/SumanDas3001" target="_blank"><i className="fa fa-github fa-2x" style={{color: '#926239'}}></i></a></li>
+            <li className="list-inline-item ml-2"><a href="https://www.linkedin.com/in/suman-das-9068b5142/" target="_blank"><i className="fa fa-linkedin fa-2x" style={{color: '#926239'}}></i></a></li>
+            <li className="list-inline-item ml-2"><a href="https://www.instagram.com/sumangraphy/" target="_blank"><i className="fa fa-instagram fa-2x" style={{color: '#926239'}}></i></a></li>
           </ul>
           <small className="text-white">Copyright &copy; 2019 All Rights Reserved</small><br/>
           <small className="text-white">Made with <span style={{color: 'red'}}>♥</span> by Suman</small>
