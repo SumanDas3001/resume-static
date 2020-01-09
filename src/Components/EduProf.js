@@ -25,7 +25,7 @@ export default function EduProf(){
           <div class="col-sm-6 col-md-6">
             <div class="card">
               <div class="card-body" style={card_bg}>
-                <h5 class="card-title text-white">Arrivae Design Pvt.Ltd</h5>
+                <h5 class="card-title text-white"><a href="https://arrivae.com" class="custom-card text-white" target="_blank">Singularity Furniture Private Limited (Arrivae)</a></h5>
                 <p class="card-text text-white">I am working here as s junior fullstack developer from Aug 2019</p>
               </div>
             </div>
