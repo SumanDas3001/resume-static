@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Project(){
+ const project = () => {
 
   const card_style = {
     backgroundColor: '#000000'
@@ -9,8 +9,15 @@ export default function Project(){
   const text_dec = {
     textDecoration: 'none'
   }
+
+  const style = {
+    '@media (min-width: 500px)': {
+      width: '450px'
+    }
+  };
+
   return(
-    <div>
+    <div style={style}>
       <div className="mt-5">
         <h2 className="sansserif" style={{textAlign: 'center', color: 'black'}}>Projects</h2>
       </div>
@@ -101,3 +108,5 @@ export default function Project(){
     </div>
   );
 }
+
+export default Radium(project)
