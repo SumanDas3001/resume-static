@@ -1,15 +1,9 @@
 import React from 'react';
-import Radium from 'radium';
 
-const footer = () =>{
-  const style = {
-    '@media (min-width: 500px)': {
-      width: '450px'
-    }
-  };
+export default function Footer(){
 
   return(
-    <div style={style}>
+    <div>
       <div className="container-fluid" id="section-a">
         <div className="row">
           <div className="col-12 col-sm-12 col-md-4 col-lg-4">
@@ -41,5 +35,3 @@ const footer = () =>{
     </div>
   );
 }
-
-export default Radium(footer);
