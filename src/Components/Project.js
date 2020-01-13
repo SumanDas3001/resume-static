@@ -95,6 +95,19 @@ export default function Project(){
                 </div>
               </a>
             </div>
+
+            <div className="card" style={card_style}>
+              <a href="https://github.com/SumanDas3001/codecamp_view_tool" className="custom-card" target="_blank">
+                <div className="card-body text-center">
+                  <p
+                    className="card-text text-white"
+                    style={text_dec}
+                  >
+                    Copyright gem
+                  </p>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
