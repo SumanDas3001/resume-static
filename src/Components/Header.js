@@ -1,5 +1,4 @@
 import React from 'react';
-import Radium from 'radium';
 
 const about = {
   height: '25px',
@@ -7,12 +6,7 @@ const about = {
   paddingRight: '13px'
 }
 
-const header = () => {
-  const style = {
-    '@media (min-width: 500px)': {
-      width: '450px'
-    }
-  };
+function Header(){
   return(
     <div>
       <header id="showcase">
@@ -30,4 +24,4 @@ const header = () => {
   );
 }
 
-export default Radium(header);
+export default Header;
