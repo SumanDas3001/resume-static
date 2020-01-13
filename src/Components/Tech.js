@@ -1,8 +1,16 @@
 import React from 'react';
+import Radium from 'radium';
 
-function Tech(){
+const tech = () => {
+
+  const style = {
+    '@media (min-width: 500px)': {
+      width: '450px'
+    }
+  };
+
   return(
-    <div className="container-fluid bg-dark" id="section-b">
+    <div className="container-fluid bg-dark" id="section-b" style={style}>
       <div className="row">
         <div className="col-4 col-md-2 col-sm-2 p-2">
           <img src="img/html5_image.jpeg" className="lang_logo rounded-circle" alt="" />
@@ -27,4 +35,4 @@ function Tech(){
   );
 }
 
-export default Tech;
+export default Radium(tech);

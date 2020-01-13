@@ -1,13 +1,20 @@
 import React from 'react';
+import Radium from 'radium';
 
-export default function EduProf(){
+const eduProf = () => {
 
   const card_bg = {
     backgroundColor: '#000000'
   }
 
+  const style = {
+    '@media (min-width: 500px)': {
+      width: '450px'
+    }
+  };
+
   return(
-    <div>
+    <div style={style}>
       <div className="mt-5">
         <h2 className="sansserif" style={{textAlign: 'center', color: 'black'}}>Education & Profession</h2>
       </div>
@@ -35,3 +42,5 @@ export default function EduProf(){
     </div>
   );
 }
+
+export default Radium(eduProf);

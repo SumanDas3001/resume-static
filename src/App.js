@@ -4,17 +4,20 @@ import Tech from './Components/Tech';
 import Project from './Components/Project';
 import EduProf from './Components/EduProf';
 import Footer from './Components/Footer';
+import Radium, {StyleRoot} from 'radium';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Tech />
-      <Project />
-      <EduProf />
-      <Footer />
-    </div>
+    <StyleRoot>
+      <div className="App">
+        <Header />
+        <Tech />
+        <Project />
+        <EduProf />
+        <Footer />
+      </div>
+    </StyleRoot>
   );
 }
 
-export default App;
+export default Radium(App);
