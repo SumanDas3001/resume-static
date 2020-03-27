@@ -12,7 +12,7 @@ export default function Project(){
   return(
     <div>
       <div className="mt-5">
-        <h2 className="sansserif" style={{textAlign: 'center', color: 'black'}}>Projects</h2>
+        <h2 className="sansserif pb-3 pt-2" style={{textAlign: 'center', color: 'black'}}>Projects</h2>
       </div>
 
       <div className="container">

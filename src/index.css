@@ -7,7 +7,7 @@ body{
 }
 
 #showcase {
-  background-image:url('bg_image.jpg');
+  background-image:url('back_image.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -140,7 +140,7 @@ a.custom-card:hover {
   background-color: #ED8D8D;
   color: #fff;
   max-height: 50px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .how-it-works.row .col-2 {
@@ -150,7 +150,7 @@ a.custom-card:hover {
   content: "";
   position: absolute;
   border-left: 3px solid #ED8D8D;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .how-it-works.row .col-2.bottom::after {
   height: 50%;
