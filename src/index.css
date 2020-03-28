@@ -7,7 +7,7 @@ body{
 }
 
 #showcase {
-  background-image:url('back_image.jpg');
+  background-image:url('bg_image.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
