@@ -84,6 +84,19 @@ export default function Project(){
             </div>
 
             <div className="card" style={card_style}>
+              <a href="https://github.com/SumanDas3001/resume-static" className="custom-card" target="_blank">
+                <div className="card-body text-center">
+                  <p
+                    className="card-text text-white"
+                    style={text_dec}
+                  >
+                    Resume Static
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div className="card" style={card_style}>
               <a href="https://github.com/SumanDas3001/Myportfolio" className="custom-card" target="_blank">
                 <div className="card-body text-center">
                   <p
