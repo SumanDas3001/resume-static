@@ -80,21 +80,33 @@ export default function EduProf(){
           <h2 className="sansserif pb-3 pt-2 border-bottom mb-5" style={{textAlign: 'center', color: 'black'}}>Education</h2>
         </div>
 
-        <div className="container">
-          <div className="row mt-3 mb-5">
-            <div className="col-sm-6 col-md-6">
-              <div className="card">
-                <div className="card-body" style={card_bg}>
-                  <h5 className="card-title text-white">Diploma in CST</h5>
-                  <p className="card-text text-white">Kalna Polytechnic -- Diploma (W.B.S.C.T.E) 2012-2015.</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="main-timeline">
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <span class="timeline-year">2012-2015</span>
+                    <div class="timeline-icon">
+                      <i class="fa fa-institution"></i>
+                    </div>
+                    <h3 class="title">Diploma in CST (W.B.S.C.T.E)</h3>
+                    <p class="description">
+                      Kalna Polytechnic - is a government polytechnic located in Kalna, Purba Bardhaman district, West Bengal. Affiliated to the West Bengal State Council of Technical Education.
+                    </p>
+                  </a>
                 </div>
-              </div>
-            </div>
-            <div className="col-sm-6 col-md-6">
-              <div className="card">
-                <div className="card-body" style={card_bg}>
-                  <h5 className="card-title text-white">B.Tech in CSE</h5>
-                  <p className="card-text text-white">Brainware Group of Institutions -- B.Tech (W.B.U.T) 2015-2018.</p>
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <span class="timeline-year">2015-2018</span>
+                    <div class="timeline-icon">
+                      <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="title">B.Tech (W.B.U.T)</h3>
+                    <p class="description">
+                      Brainware Group of Institutions - Sabita Devi Education Trust, is an academic institution imparting quality education in Management and Engineering courses.
+                    </p>
+                  </a>
                 </div>
               </div>
             </div>
