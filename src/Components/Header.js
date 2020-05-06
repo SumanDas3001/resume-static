@@ -1,27 +1,55 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const about = {
-  height: '25px',
-  margin: '2px',
-  paddingRight: '13px'
-}
+class Header extends Component {
+  render() {
 
-function Header(){
-  return(
-    <div>
-      <header id="showcase">
-        <h1>Hey, I am Suman</h1>
-        <p>I am a Ruby on Rails developer.Enjoy learning new things</p>
-        <a href="#section-a" className="button" id="read-more">Read more</a>
+    if(this.props.data){
+      var name = this.props.data.name;
+      var occupation= this.props.data.occupation;
+      var description= this.props.data.description;
+      var jobDescription= this.props.data.jobDescription;
+      var employer= this.props.data.employer;
+      var city= this.props.data.address.city;
+      var networks= this.props.data.social.map(function(network){
+        return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
+      })
+    }
+
+    return (
+      <header id="home">
+        <nav id="nav-wrap">
+          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+          <ul id="nav" className="nav">
+            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+            <li><a className="smoothscroll" href="#about">About</a></li>
+            <li><a className="smoothscroll" href="#resume">Resume</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a className="smoothscroll" href="#testimonials">Friend Say's</a></li>
+            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            {/*<li><a href="http://sumandas-portfolio.herokuapp.com" target="_blank">Blog</a></li>*/}
+          </ul>
+        </nav>
+
+        <div className="row banner">
+          <div className="banner-text">
+            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h3>I'm a <span>{city}</span> based <span>{occupation}</span>, 
+            {description}<span>{employer}</span> where I work as a 
+            <span> {jobDescription}</span>.</h3>
+            <hr />
+            <ul className="social">
+              {networks}
+            </ul>
+          </div>
+        </div>
+
+        <p className="scrolldown">
+          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+        </p>
       </header>
-      <section id="section-a">
-        <img style={{borderRadius: '50%'}} src="img/suman.jpg" alt="Suman Das" />
-        <h2>About</h2>
-        <a href="file/Resume.pdf" className="pdf_button" target="_blank" download><img src="img/download.svg" style={about} alt="" />Resume</a>
-        <p className="mt-3" style={{textAlign: 'center'}}>I am a Ruby on Rails developer, I have near about one year of industrial experience on backend development. I am also interested in fullstack development using Rails and React.</p>
-      </section>
-    </div>
-  );
+    );
+  }
 }
 
 export default Header;

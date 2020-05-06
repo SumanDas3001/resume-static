@@ -1,4 +1,4 @@
-body{
+/*body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -44,7 +44,7 @@ body{
 }
 
 .pdf_button:hover {
-  background-color: tan; /* Green */
+  background-color: tan; 
   color: white;
 }
 
@@ -98,11 +98,11 @@ p.sansserif {
 a.custom-card,
 a.custom-card:hover {
   text-decoration: none;
-}
+}*/
 
 
 /* page scroll at top */
-#scroll {
+/*#scroll {
   position:fixed;
   right:10px;
   bottom:10px;
@@ -150,7 +150,6 @@ a.custom-card:hover {
   content: "";
   position: absolute;
   border-left: 3px solid #ED8D8D;
-  /* z-index: 1; */
 }
 .how-it-works.row .col-2.bottom::after {
   height: 50%;
@@ -203,11 +202,11 @@ a.custom-card:hover {
 .timeline .right-bottom {
   left: 50%;
   top: calc(50% - 3px);
-}
+}*/
 
 
 /**********************Education*******************/
-.main-timeline{
+/*.main-timeline{
   font-family: 'Poppins', sans-serif;
   position: relative;
 }
@@ -332,3 +331,4 @@ a.custom-card:hover {
 @media screen and (max-width:576px){
   .main-timeline .title{ font-size: 18px; }
 }
+*/
