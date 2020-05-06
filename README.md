@@ -1,6 +1,5 @@
-# Resume 📋️ 
-![ReactJS Resume Website](https://github.com/SumanDas3001/react_clicker/blob/master/public/images/portfolio/resume.jpg?raw=true "ReactJS Resume Website")
-
+# Resume
+![ReactJS Resume Website](resume.jpg?raw=true "ReactJS Resume Website")
 ### <a href="http://timbakerdev.com/">Check It Out Here</a> 
 
 ## Description
