@@ -1,0 +1,136 @@
+{
+  "main": {
+    "name":"Suman Das",
+    "occupation":"Ruby on Rails Developer",
+    "description":" currently employed by ",
+    "employer":"Spaceo-O Technology",
+    "jobDescription":"Ruby on Rails software engineer",
+    "image":"profile_pic.jpg",
+    "bio":"I am a backend developer, a knack for error solving, learning new technologies and a passion for coding. I pursued my first development job to kick off my career. I was hired as a Ruby on Rails developer by Yotto Labs it was my job, currently I am working at Spaceo-O technologies as a Ruby on Rails developer where I still work today.",
+    "contactmessage":"Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email below if you'd like to get in contact with me.",
+    "email": "sumandas3001@gmail.com",
+    "phone": "+91 9123364238",
+    "address":{
+      "street":"Pacific Avenue",
+      "city":"Ahmedabad",
+      "state":"Ghujrat",
+      "zip": "380015"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1YqCgKN-dPQuP6TLUlEZ7wpz0kkdFnRHP/view?usp=sharing",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/profile.php?id=100006119806373",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/suman-das-9068b5142/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/sumangraphy/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"stack-overflow",
+        "url":"https://stackoverflow.com/users/8427113/suman-das",
+        "className":"fa fa-stack-overflow"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/SumanDas3001",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I'm always interested in playing around with new technologies but these are the ones that have really won me over",
+    "education":[
+      {
+        "college":"Brainware Group of Institutions",
+        "degree":"Bachelors of Technology",
+        "graduated":"Expected May 2018",
+        "description":"Brainware Group of Institutions - Sabita Devi Education Trust, is an academic institution imparting quality education in Management and Engineering courses."
+      },
+      {
+        "college":"Kalna Polytechnic College",
+        "degree":"Computer Science & Technology",
+        "graduated":"April 2015",
+        "description":"Kalna Polytechnic - is a government polytechnic located in Kalna, Purba Bardhaman district, West Bengal. Affiliated to the West Bengal State Council of Technical Education."
+      }
+    ],
+    "work":[
+      {
+        "company":"Spaceo-O Technology",
+        "title": "Ruby on Rails Developer",
+        "years": "January 2020 - Present",
+        "description": "Space-O is a top mobile app development company in USA, Canada & India, offering iPhone (iOS) & Android app development services."
+      },
+      {
+        "company":"Arrivae",
+        "title":"Ruby on Rails Developer",
+        "years":"August 2019 - January 2020",
+        "description":"Arrivae is a furniture company, they have some product to maintain their business. As a junior developer I have worked on their project mainly at the backend and sometimes also worked on frontend using React. They were used Bitbucket, Jira, Rails 5.2.1, etc."
+      },
+      {
+        "company":"Yotto Labs",
+        "title":"Ruby on Rails Developer",
+        "years":"June 2018 - June 2019",
+        "description":"Yottolabs is a product based company. As a trainee ROR developer I hade learned some important things from Yottolabs that is how to work as a team member.\n\nI have learned basic syntaxes of ROR, database query, understanding the logic behind tasks. I have worked on their main project which was “insite” and that purpose I have learned the use of some tools like GitLab, Redmine and Paytm Payment Gateway integration"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "description":"I use Git for all of my projects so far. I have used Git for version control.",
+        "image":"git.jpg"
+      },
+      {
+        "name":"Rails",
+        "description":"Rails is my full stack framework of choice. I have near about one and half year of experience on Rails.",
+        "image":"rails.jpg"
+      },
+      {
+        "name":"React Js",
+        "description":"I am fairly new to React and really like it at first. I have built a ReactJS based resume-website.",
+        "image":"react.jpg"
+      },
+      {
+        "name":"PostgreSql",
+        "description":"I have used PostgreSql database for my all projects.",
+        "image":"postgresql.jpg"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Blog website",
+        "category":"Blog website is a tech blog website.",
+        "image":"blog_and_portfolio.jpg",
+        "url":"http://sumandas-portfolio.herokuapp.com"
+      },
+      {
+        "title":"Resume website",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"resume.jpg",
+        "url":"http://www.sumandas.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"I have worked with suman on some projects in yottolabs, he is very committed towards his daily task and always search for the solution in every possible way , he is very punctual and always try to help and encourage others.",
+        "user":"Saheb Seikh - Web Developer at kumulus"
+      },
+      {
+        "text":"Suman is a very talented and enthusiastic person. I have seen him come office and work indefinitely until his project was complete. He is always energetic and his skills are very good.",
+        "user":"Koustav Gorain - Web Developer at Netzary Infodynamics"
+      }
+    ]
+  }
+}
