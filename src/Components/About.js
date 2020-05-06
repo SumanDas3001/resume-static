@@ -29,7 +29,7 @@ class About extends Component {
 								<p className="address">
 									<span>{name}</span><br/>
 									<span>{city}<br/>
-										{state}, {zip}
+									{state}, {zip}
 									</span><br />
 									<span>{phone}</span><br />
 									<span><a href="mailto:tbakerx@gmail.com">{email}</a></span>

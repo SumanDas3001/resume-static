@@ -25,7 +25,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
             <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Friend Say's</a></li>
+            <li><a className="smoothscroll" href="#testimonials">Friends Say</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
             {/*<li><a href="http://sumandas-portfolio.herokuapp.com" target="_blank">Blog</a></li>*/}
           </ul>
