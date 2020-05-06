@@ -1,6 +1,6 @@
 # Resume
 ![ReactJS Resume Website](resume.jpg?raw=true "ReactJS Resume Website")
-### <a href="http://sumandas.com/">Check It Out Here</a> 
+### <a href="http://sumandas.com/" target="_blank">Check It Out Here</a> 
 
 ## Description
 This is my static resume web application, some of informaton about me is here 😇️🍻️. I have used `netlify` for CI and CD.
